@@ -4,4 +4,5 @@
 
     // saída de dados
     echo "Olá, seja bem-vindo " . $nome . ".";
+    echo '<br><a href="index.html">Voltar</a>';
 ?>
