@@ -6,8 +6,8 @@
     $cont = 0;
 
     // mostrando os valores do array na tela usando o while
-    do {
+    while ($cont < count($estados)) {
         echo $estados[$cont] . "<br>";
         $cont++;
-    } while ($cont < count($estados));
+    }
 ?>

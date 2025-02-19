@@ -2,7 +2,12 @@
     // array
     $estados = ["Distrito Federal", "Goiás", "Rio de Janeiro", "São Paulo", "Minas Gerais"];
 
-    for ($cont = 0; $cont < count($estados); $cont++) {
+    // contador
+    $cont = 0;
+
+    // mostrando os valores do array na tela usando o while
+    do {
         echo $estados[$cont] . "<br>";
-    }
+        $cont++;
+    } while ($cont < count($estados));
 ?>

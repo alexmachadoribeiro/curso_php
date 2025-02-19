@@ -1,13 +1,11 @@
 <?php
-    // array
-    $estados = ["Distrito Federal", "Goiás", "Rio de Janeiro", "São Paulo", "Minas Gerais"];
+// vetor
+    $estados = array("Distrito Federal", "Goiás", "Rio de Janeiro", "São Paulo", "Minas Gerais");
 
-    // contador
-    $cont = 0;
-
-    // mostrando os valores do array na tela usando o while
-    while ($cont < count($estados)) {
-        echo $estados[$cont] . "<br>";
-        $cont++;
-    }
+    // mostrando os valores do array na tela
+    echo $estados[0] . "<br>";
+    echo $estados[1] . "<br>";
+    echo $estados[2] . "<br>";
+    echo $estados[3] . "<br>";
+    echo $estados[4] . "<br>";
 ?>
